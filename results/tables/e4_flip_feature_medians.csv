@@ -1,0 +1,4 @@
+change,koi_model_snr_25,koi_period_25,koi_depth_25,koi_prad_25,koi_impact_25
+FP -> planet-like,19.7,2.012094,214.3,2.04,0.58
+planet-like -> FP,222.3,12.718711489,11545.0,38.61,0.981
+stable,30.7,7.076910955000001,455.9,2.45,0.577

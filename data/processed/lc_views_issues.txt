@@ -1,0 +1,7 @@
+9640976 error failed after 8 tries: https://stpubdata.s3.amazonaws.com/kepler/public/lightcurves/0096/009640976/kplr009640976-2009166043257_llc.fits
+9597345 error failed after 8 tries: https://stpubdata.s3.amazonaws.com/kepler/public/lightcurves/0095/009597345/kplr009597345-2010078095331_llc.fits
+5786676 error failed after 8 tries: https://stpubdata.s3.amazonaws.com/kepler/public/lightcurves/0057/005786676/kplr005786676-2009166043257_llc.fits
+5796675 error failed after 8 tries: https://stpubdata.s3.amazonaws.com/kepler/public/lightcurves/0057/005796675/kplr005796675-2009166043257_llc.fits
+5796186 error failed after 8 tries: https://stpubdata.s3.amazonaws.com/kepler/public/lightcurves/0057/005796186/kplr005796186-2009166043257_llc.fits
+2444412 error failed after 8 tries: https://stpubdata.s3.amazonaws.com/kepler/public/lightcurves/0024/002444412/kplr002444412-2009166043257_llc.fits
+8439949 error cannot reshape array of size 0 into shape (0,newaxis)

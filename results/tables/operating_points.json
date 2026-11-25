@@ -1,0 +1,28 @@
+{
+  "Logistic regression": {
+    "thr_recall95": 0.1988970986512808,
+    "thr_default": 0.5
+  },
+  "k-NN": {
+    "thr_recall95": 0.2888004892886078,
+    "thr_default": 0.5
+  },
+  "Decision tree": {
+    "thr_recall95": 0.3180530114885695,
+    "thr_default": 0.5
+  },
+  "Random forest": {
+    "thr_recall95": 0.28135624098124096,
+    "thr_default": 0.5
+  },
+  "Gradient boosting": {
+    "thr_recall95": 0.27320341805841897,
+    "thr_default": 0.5
+  },
+  "_selected_model": "Gradient boosting",
+  "_review_budgets": [
+    100,
+    250,
+    500
+  ]
+}

@@ -1,0 +1,163 @@
+stars: 6923 total, 4360 to do
+100/4360 stars, 1.2 min, eta 53 min, issues 0
+200/4360 stars, 2.1 min, eta 45 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+300/4360 stars, 3.1 min, eta 43 min, issues 0
+400/4360 stars, 4.4 min, eta 44 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+500/4360 stars, 6.1 min, eta 47 min, issues 0
+600/4360 stars, 7.3 min, eta 46 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+700/4360 stars, 8.8 min, eta 46 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+800/4360 stars, 10.0 min, eta 45 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+900/4360 stars, 11.2 min, eta 43 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1000/4360 stars, 12.5 min, eta 42 min, issues 0
+1100/4360 stars, 13.4 min, eta 40 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1200/4360 stars, 16.0 min, eta 42 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1300/4360 stars, 17.1 min, eta 40 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1400/4360 stars, 18.0 min, eta 38 min, issues 0
+1500/4360 stars, 19.1 min, eta 36 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1600/4360 stars, 19.9 min, eta 34 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1700/4360 stars, 20.9 min, eta 33 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1800/4360 stars, 22.0 min, eta 31 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+1900/4360 stars, 23.1 min, eta 30 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2000/4360 stars, 24.0 min, eta 28 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2100/4360 stars, 24.8 min, eta 27 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2200/4360 stars, 25.9 min, eta 25 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2300/4360 stars, 26.8 min, eta 24 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2400/4360 stars, 27.6 min, eta 23 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2500/4360 stars, 28.7 min, eta 21 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2600/4360 stars, 29.7 min, eta 20 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2700/4360 stars, 30.7 min, eta 19 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2800/4360 stars, 32.0 min, eta 18 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2900/4360 stars, 32.9 min, eta 17 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+3000/4360 stars, 33.8 min, eta 15 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+3100/4360 stars, 38.6 min, eta 16 min, issues 6
+/Users/ojas/planet-or-impostor/src/lightcurves.py:139: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+3200/4360 stars, 40.1 min, eta 15 min, issues 6
+3300/4360 stars, 41.0 min, eta 13 min, issues 6
+3400/4360 stars, 42.1 min, eta 12 min, issues 6
+3500/4360 stars, 43.0 min, eta 11 min, issues 6
+3600/4360 stars, 44.4 min, eta 9 min, issues 6
+3700/4360 stars, 45.6 min, eta 8 min, issues 6
+3800/4360 stars, 46.6 min, eta 7 min, issues 6
+3900/4360 stars, 48.0 min, eta 6 min, issues 6
+4000/4360 stars, 49.6 min, eta 4 min, issues 7
+4100/4360 stars, 50.5 min, eta 3 min, issues 7
+4200/4360 stars, 51.5 min, eta 2 min, issues 7
+4300/4360 stars, 52.5 min, eta 1 min, issues 7
+4360/4360 stars, 53.1 min, eta 0 min, issues 7

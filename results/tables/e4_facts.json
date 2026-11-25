@@ -1,0 +1,14 @@
+{
+  "dr24_rows": 7470,
+  "dr25_rows": 8054,
+  "shared_kois": 7102,
+  "shared_stars": 6096,
+  "only_dr24": 368,
+  "only_dr25": 952,
+  "flips_main_label": {
+    "stable": 6590,
+    "planet-like -> FP": 435,
+    "FP -> planet-like": 77
+  },
+  "flips_pdisposition": 569
+}

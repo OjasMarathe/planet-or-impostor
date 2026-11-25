@@ -1,0 +1,5 @@
+k,perfect,Gradient boosting (model),Logistic regression (model),Highest SNR first,Shortest period first,Longest period first,Random order (mean of 500)
+100,100,98.0,95.0,4.0,10.0,41.0,49.152
+250,250,244.0,234.0,32.0,34.0,97.0,124.006
+478,478,467.0,433.0,119.0,110.0,226.0,236.654
+500,500,487.0,448.0,134.0,123.0,241.0,247.422

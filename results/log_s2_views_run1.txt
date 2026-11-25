@@ -1,0 +1,93 @@
+stars: 6923 total, 6923 to do
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+100/6923 stars, 1.5 min, eta 105 min, issues 0
+200/6923 stars, 2.8 min, eta 93 min, issues 0
+300/6923 stars, 4.0 min, eta 88 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+400/6923 stars, 5.5 min, eta 90 min, issues 0
+500/6923 stars, 6.9 min, eta 89 min, issues 0
+600/6923 stars, 8.3 min, eta 87 min, issues 0
+700/6923 stars, 10.3 min, eta 91 min, issues 0
+800/6923 stars, 11.9 min, eta 91 min, issues 0
+900/6923 stars, 13.4 min, eta 90 min, issues 0
+1000/6923 stars, 14.9 min, eta 88 min, issues 0
+1100/6923 stars, 16.1 min, eta 85 min, issues 0
+1200/6923 stars, 17.5 min, eta 83 min, issues 0
+1300/6923 stars, 18.6 min, eta 81 min, issues 0
+1400/6923 stars, 19.7 min, eta 78 min, issues 0
+1500/6923 stars, 21.1 min, eta 76 min, issues 0
+1600/6923 stars, 22.3 min, eta 74 min, issues 0
+1700/6923 stars, 23.5 min, eta 72 min, issues 0
+1800/6923 stars, 24.7 min, eta 70 min, issues 0
+1900/6923 stars, 25.8 min, eta 68 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2000/6923 stars, 26.9 min, eta 66 min, issues 0
+2100/6923 stars, 27.9 min, eta 64 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2200/6923 stars, 28.9 min, eta 62 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2300/6923 stars, 29.8 min, eta 60 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2400/6923 stars, 30.7 min, eta 58 min, issues 0
+/Users/ojas/planet-or-impostor/src/lightcurves.py:135: RuntimeWarning: Mean of empty slice
+  r0 = np.nanmean(r[oot])
+2500/6923 stars, 32.1 min, eta 57 min, issues 0
+2600/6923 stars, 33.9 min, eta 56 min, issues 37
+2700/6923 stars, 33.9 min, eta 53 min, issues 137
+2800/6923 stars, 34.0 min, eta 50 min, issues 237
+2900/6923 stars, 34.0 min, eta 47 min, issues 337
+3000/6923 stars, 34.0 min, eta 45 min, issues 437
+3100/6923 stars, 34.1 min, eta 42 min, issues 537
+3200/6923 stars, 34.1 min, eta 40 min, issues 637
+3300/6923 stars, 34.1 min, eta 37 min, issues 737
+3400/6923 stars, 34.2 min, eta 35 min, issues 837
+3500/6923 stars, 34.2 min, eta 33 min, issues 937
+3600/6923 stars, 34.2 min, eta 32 min, issues 1037
+3700/6923 stars, 34.3 min, eta 30 min, issues 1137
+3800/6923 stars, 34.3 min, eta 28 min, issues 1237
+3900/6923 stars, 34.3 min, eta 27 min, issues 1337
+4000/6923 stars, 34.4 min, eta 25 min, issues 1437
+4100/6923 stars, 34.5 min, eta 24 min, issues 1537
+4200/6923 stars, 34.5 min, eta 22 min, issues 1637
+4300/6923 stars, 34.5 min, eta 21 min, issues 1737
+4400/6923 stars, 34.6 min, eta 20 min, issues 1837
+4500/6923 stars, 34.6 min, eta 19 min, issues 1937
+4600/6923 stars, 34.6 min, eta 17 min, issues 2037
+4700/6923 stars, 34.6 min, eta 16 min, issues 2137
+4800/6923 stars, 34.7 min, eta 15 min, issues 2237
+4900/6923 stars, 34.7 min, eta 14 min, issues 2337
+5000/6923 stars, 34.7 min, eta 13 min, issues 2437
+5100/6923 stars, 34.8 min, eta 12 min, issues 2537
+5200/6923 stars, 34.8 min, eta 12 min, issues 2637
+5300/6923 stars, 34.8 min, eta 11 min, issues 2737
+5400/6923 stars, 34.9 min, eta 10 min, issues 2837
+5500/6923 stars, 34.9 min, eta 9 min, issues 2937
+5600/6923 stars, 34.9 min, eta 8 min, issues 3037
+5700/6923 stars, 35.0 min, eta 8 min, issues 3137
+5800/6923 stars, 35.0 min, eta 7 min, issues 3237
+5900/6923 stars, 35.0 min, eta 6 min, issues 3337
+6000/6923 stars, 35.1 min, eta 5 min, issues 3437
+6100/6923 stars, 35.1 min, eta 5 min, issues 3537
+6200/6923 stars, 35.1 min, eta 4 min, issues 3637
+6300/6923 stars, 35.2 min, eta 3 min, issues 3737
+6400/6923 stars, 35.2 min, eta 3 min, issues 3837
+6500/6923 stars, 35.2 min, eta 2 min, issues 3937
+6600/6923 stars, 35.3 min, eta 2 min, issues 4037
+6700/6923 stars, 35.3 min, eta 1 min, issues 4137
+6800/6923 stars, 35.3 min, eta 1 min, issues 4237
+6900/6923 stars, 35.4 min, eta 0 min, issues 4337
+6923/6923 stars, 35.4 min, eta 0 min, issues 4360

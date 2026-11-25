@@ -1,0 +1,9 @@
+,confident false alarms,correct false positives (p<0.5),confident misses,correct planet-like (p>=0.5)
+koi_period,20.010141495,5.2438755,5.288547653,12.4701111
+koi_depth,221.55,807.2,2092.3,367.25
+koi_model_snr,23.75,45.6,52.8,22.05
+koi_prad,1.935,20.48,30.25,2.0
+koi_impact,0.42500000000000004,0.722,1.23,0.374
+koi_duration,3.356,4.3380849999999995,4.807,3.545
+koi_steff,5681.5,5868.0,6072.0,5632.0
+koi_srad,1.0394999999999999,1.013,1.02,0.956

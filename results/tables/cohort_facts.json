@@ -1,0 +1,19 @@
+{
+  "raw_rows": 9564,
+  "raw_columns": 153,
+  "cohort_rows": 9564,
+  "stars": 8214,
+  "multi_koi_stars": 938,
+  "kois_on_multi_stars": 2288,
+  "max_kois_per_star": 7,
+  "n_clean_features": 30,
+  "rows_without_transit_fit": 363,
+  "audit_counts": {
+    "unused": 82,
+    "excluded": 29,
+    "feature: transit": 13,
+    "grey zone (E1 only)": 12,
+    "feature: stellar": 10,
+    "feature: derived": 7
+  }
+}

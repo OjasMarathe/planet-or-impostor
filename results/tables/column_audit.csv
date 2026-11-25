@@ -1,0 +1,154 @@
+column,role,reason
+kepid,excluded,star id; used only to group the splits
+kepoi_name,excluded,object id
+kepler_name,excluded,filled only for confirmed planets
+ra,excluded,"sky position, not a property of the signal"
+ra_err,unused,not in the proposal's feature list
+ra_str,excluded,sky position string
+dec,excluded,"sky position, not a property of the signal"
+dec_err,unused,not in the proposal's feature list
+dec_str,excluded,sky position string
+koi_gmag,unused,not in the proposal's feature list
+koi_gmag_err,unused,not in the proposal's feature list
+koi_rmag,unused,not in the proposal's feature list
+koi_rmag_err,unused,not in the proposal's feature list
+koi_imag,unused,not in the proposal's feature list
+koi_imag_err,unused,not in the proposal's feature list
+koi_zmag,unused,not in the proposal's feature list
+koi_zmag_err,unused,not in the proposal's feature list
+koi_jmag,unused,not in the proposal's feature list
+koi_jmag_err,unused,not in the proposal's feature list
+koi_hmag,unused,not in the proposal's feature list
+koi_hmag_err,unused,not in the proposal's feature list
+koi_kmag,unused,not in the proposal's feature list
+koi_kmag_err,unused,not in the proposal's feature list
+koi_kepmag,feature: stellar,host-star property
+koi_kepmag_err,unused,not in the proposal's feature list
+koi_delivname,excluded,delivery name (provenance)
+koi_vet_stat,excluded,vetting status
+koi_quarters,excluded,"observing-quarter bit string (coverage, not signal)"
+koi_disposition,excluded,the label itself
+koi_pdisposition,excluded,the pipeline's own disposition
+koi_count,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_num_transits,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_max_sngle_ev,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_max_mult_ev,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_bin_oedp_sig,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_limbdark_mod,excluded,model name string
+koi_ldm_coeff4,unused,not in the proposal's feature list
+koi_ldm_coeff3,unused,not in the proposal's feature list
+koi_ldm_coeff2,unused,not in the proposal's feature list
+koi_ldm_coeff1,unused,not in the proposal's feature list
+koi_trans_mod,excluded,model name string
+koi_model_snr,feature: transit,light-curve fit measurement
+koi_model_dof,unused,not in the proposal's feature list
+koi_model_chisq,unused,not in the proposal's feature list
+koi_time0bk,unused,not in the proposal's feature list
+koi_time0bk_err1,unused,not in the proposal's feature list
+koi_time0bk_err2,unused,not in the proposal's feature list
+koi_eccen,unused,not in the proposal's feature list
+koi_eccen_err1,unused,not in the proposal's feature list
+koi_eccen_err2,unused,not in the proposal's feature list
+koi_longp,unused,not in the proposal's feature list
+koi_longp_err1,unused,not in the proposal's feature list
+koi_longp_err2,unused,not in the proposal's feature list
+koi_prad,feature: derived,planet quantity from transit fit + star
+koi_prad_err1,feature: derived,planet quantity from transit fit + star
+koi_prad_err2,feature: derived,planet quantity from transit fit + star
+koi_sma,unused,not in the proposal's feature list
+koi_sma_err1,unused,not in the proposal's feature list
+koi_sma_err2,unused,not in the proposal's feature list
+koi_impact,feature: transit,light-curve fit measurement
+koi_impact_err1,feature: transit,light-curve fit measurement
+koi_impact_err2,feature: transit,light-curve fit measurement
+koi_duration,feature: transit,light-curve fit measurement
+koi_duration_err1,feature: transit,light-curve fit measurement
+koi_duration_err2,feature: transit,light-curve fit measurement
+koi_ingress,unused,not in the proposal's feature list
+koi_ingress_err1,unused,not in the proposal's feature list
+koi_ingress_err2,unused,not in the proposal's feature list
+koi_depth,feature: transit,light-curve fit measurement
+koi_depth_err1,feature: transit,light-curve fit measurement
+koi_depth_err2,feature: transit,light-curve fit measurement
+koi_period,feature: transit,light-curve fit measurement
+koi_period_err1,feature: transit,light-curve fit measurement
+koi_period_err2,feature: transit,light-curve fit measurement
+koi_ror,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_ror_err1,unused,not in the proposal's feature list
+koi_ror_err2,unused,not in the proposal's feature list
+koi_dor,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_dor_err1,unused,not in the proposal's feature list
+koi_dor_err2,unused,not in the proposal's feature list
+koi_incl,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_incl_err1,unused,not in the proposal's feature list
+koi_incl_err2,unused,not in the proposal's feature list
+koi_teq,feature: derived,planet quantity from transit fit + star
+koi_teq_err1,unused,not in the proposal's feature list
+koi_teq_err2,unused,not in the proposal's feature list
+koi_steff,feature: stellar,host-star property
+koi_steff_err1,feature: stellar,host-star property
+koi_steff_err2,feature: stellar,host-star property
+koi_slogg,feature: stellar,host-star property
+koi_slogg_err1,feature: stellar,host-star property
+koi_slogg_err2,feature: stellar,host-star property
+koi_smet,unused,not in the proposal's feature list
+koi_smet_err1,unused,not in the proposal's feature list
+koi_smet_err2,unused,not in the proposal's feature list
+koi_srad,feature: stellar,host-star property
+koi_srad_err1,feature: stellar,host-star property
+koi_srad_err2,feature: stellar,host-star property
+koi_smass,unused,not in the proposal's feature list
+koi_smass_err1,unused,not in the proposal's feature list
+koi_smass_err2,unused,not in the proposal's feature list
+koi_sage,unused,not in the proposal's feature list
+koi_sage_err1,unused,not in the proposal's feature list
+koi_sage_err2,unused,not in the proposal's feature list
+koi_sparprov,excluded,stellar parameter provenance
+koi_fwm_stat_sig,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_fwm_sra,unused,not in the proposal's feature list
+koi_fwm_sra_err,unused,not in the proposal's feature list
+koi_fwm_sdec,unused,not in the proposal's feature list
+koi_fwm_sdec_err,unused,not in the proposal's feature list
+koi_fwm_srao,unused,not in the proposal's feature list
+koi_fwm_srao_err,unused,not in the proposal's feature list
+koi_fwm_sdeco,unused,not in the proposal's feature list
+koi_fwm_sdeco_err,unused,not in the proposal's feature list
+koi_fwm_prao,unused,not in the proposal's feature list
+koi_fwm_prao_err,unused,not in the proposal's feature list
+koi_fwm_pdeco,unused,not in the proposal's feature list
+koi_fwm_pdeco_err,unused,not in the proposal's feature list
+koi_dicco_mra,unused,not in the proposal's feature list
+koi_dicco_mra_err,unused,not in the proposal's feature list
+koi_dicco_mdec,unused,not in the proposal's feature list
+koi_dicco_mdec_err,unused,not in the proposal's feature list
+koi_dicco_msky,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_dicco_msky_err,unused,not in the proposal's feature list
+koi_dikco_mra,unused,not in the proposal's feature list
+koi_dikco_mra_err,unused,not in the proposal's feature list
+koi_dikco_mdec,unused,not in the proposal's feature list
+koi_dikco_mdec_err,unused,not in the proposal's feature list
+koi_dikco_msky,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_dikco_msky_err,unused,not in the proposal's feature list
+koi_comment,excluded,free-text vetting notes (names the failed tests)
+koi_vet_date,excluded,vetting date
+koi_tce_plnt_num,excluded,TCE sequence number on the star (an id)
+koi_tce_delivname,excluded,TCE delivery name (provenance)
+koi_datalink_dvs,excluded,link to the vetting summary
+koi_disp_prov,excluded,disposition provenance
+koi_parm_prov,excluded,parameter provenance
+koi_time0,unused,not in the proposal's feature list
+koi_time0_err1,unused,not in the proposal's feature list
+koi_time0_err2,unused,not in the proposal's feature list
+koi_datalink_dvr,excluded,link to the vetting report
+koi_fpflag_nt,excluded,vetting flag: not transit-like
+koi_fpflag_ss,excluded,vetting flag: stellar eclipse
+koi_fpflag_co,excluded,vetting flag: centroid offset
+koi_fpflag_ec,excluded,vetting flag: ephemeris match
+koi_insol,feature: derived,planet quantity from transit fit + star
+koi_insol_err1,feature: derived,planet quantity from transit fit + star
+koi_insol_err2,feature: derived,planet quantity from transit fit + star
+koi_srho,grey zone (E1 only),diagnostic statistic read by the Robovetter
+koi_srho_err1,unused,not in the proposal's feature list
+koi_srho_err2,unused,not in the proposal's feature list
+koi_fittype,excluded,fit method; 'none' marks unfitted objects (provenance)
+koi_score,excluded,confidence in the disposition itself

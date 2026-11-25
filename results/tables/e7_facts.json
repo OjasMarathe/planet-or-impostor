@@ -1,0 +1,13 @@
+{
+  "test_n": 1913,
+  "confident_false_alarms": 12,
+  "confident_misses": 15,
+  "share_of_fps_that_are_confident_false_alarms": 0.012396694214876033,
+  "share_of_planet_like_that_are_confident_misses": 0.015873015873015872,
+  "dev_confident_false_alarms": 37,
+  "dev_confident_misses": 46,
+  "dev_confident_misses_by_disposition": {
+    "CANDIDATE": 43,
+    "CONFIRMED": 3
+  }
+}

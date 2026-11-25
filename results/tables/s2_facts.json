@@ -1,0 +1,15 @@
+{
+  "kois_with_views": 8045,
+  "dr25_kois": 8054,
+  "gold": 6557,
+  "gold_planets": 2718,
+  "gold_stars": 5723,
+  "disagreements": 300,
+  "ai_right": 155,
+  "robovetter_right": 145,
+  "possible_planets": 480,
+  "possible_planets_rejected_by_robovetter": 217,
+  "of_those_ai_says_planet": 103,
+  "median_quarters": 17.0,
+  "minutes": 13.3
+}

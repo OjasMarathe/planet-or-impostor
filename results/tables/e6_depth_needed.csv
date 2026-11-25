@@ -1,0 +1,5 @@
+recall_target,Gradient boosting (model),Logistic regression (model),Highest SNR first,Shortest period first,Longest period first,Random order (mean of 500)
+0.5,484,534,993,1050,864,957
+0.8,848,941,1471,1496,1301,1531
+0.9,1092,1188,1665,1672,1471,1723
+0.95,1253,1408,1751,1793,1610,1818

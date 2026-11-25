@@ -1,0 +1,8 @@
+{
+  "Majority baseline": "none",
+  "Logistic regression": "isotonic",
+  "k-NN": "none",
+  "Decision tree": "isotonic",
+  "Random forest": "none",
+  "Gradient boosting": "sigmoid"
+}

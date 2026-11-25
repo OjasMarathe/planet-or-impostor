@@ -1,0 +1,39 @@
+KOIs with views: 8045; gold: 6557 (2718 planets, 3839 impostors) on 5723 stars
+fold 1/5 done, 2.5 min
+fold 2/5 done, 5.1 min
+fold 3/5 done, 7.5 min
+fold 4/5 done, 10.1 min
+fold 5/5 done, 12.2 min
+                                      method  pr_auc  roc_auc    mcc  errors  false_alarms  misses
+                    Robovetter (its verdict)     NaN      NaN 0.9433     182           127      55
+                      Robovetter (its score)  0.9654   0.9837 0.9418     186           114      72
+                               Neural vetter  0.9933   0.9956 0.9461     172           104      68
+             Neural vetter, no centroid view  0.9935   0.9955 0.9451     175            99      76
+            Neural vetter, light curves only  0.9804   0.9877 0.8911     350           226     124
+Neural vetter trained on Robovetter verdicts  0.9933   0.9956 0.9424     184           113      71
+               Boosting on measurements only  0.9954   0.9969 0.9573     136            74      62
+  Neural vetter + Robovetter score (average)  0.9968   0.9983 0.9630     118            71      47
+            comparison     mean   ci_low  ci_high
+    errors_ai_minus_rv -10.2380 -45.0000  24.0250
+       mcc_ai_minus_rv   0.0029  -0.0076   0.0137
+prauc_ai_minus_rvscore   0.0279   0.0209   0.0358
+ errors_combo_minus_rv -63.7950 -83.0250 -42.0000
+                       n  ai_agrees_with_dr25  ai_agrees_with_dr24
+change                                                            
+FP -> planet-like   77.0                0.299                0.701
+planet-like -> FP  435.0                0.917                0.083
+{
+  "kois_with_views": 8045,
+  "dr25_kois": 8054,
+  "gold": 6557,
+  "gold_planets": 2718,
+  "gold_stars": 5723,
+  "disagreements": 300,
+  "ai_right": 155,
+  "robovetter_right": 145,
+  "possible_planets": 480,
+  "possible_planets_rejected_by_robovetter": 217,
+  "of_those_ai_says_planet": 103,
+  "median_quarters": 17.0,
+  "minutes": 13.3
+}

@@ -1,0 +1,333 @@
+                                n  share
+koi_disposition                         
+FALSE POSITIVE               4839  0.506
+CONFIRMED                    2748  0.287
+CANDIDATE                    1977  0.207
+planet-like (main positive)  4725  0.494
+NOT DISPOSITIONED dropped       0  0.000
+       part  kois  stars  planet_like_share  confirmed  candidate  false_positive
+development  7651   6570              0.494       2171       1609            3871
+       test  1913   1644              0.494        577        368             968
+        all  9564   8214              0.494       2748       1977            4839
+{
+  "raw_rows": 9564,
+  "raw_columns": 153,
+  "cohort_rows": 9564,
+  "stars": 8214,
+  "multi_koi_stars": 938,
+  "kois_on_multi_stars": 2288,
+  "max_kois_per_star": 7,
+  "n_clean_features": 30,
+  "rows_without_transit_fit": 363,
+  "audit_counts": {
+    "unused": 82,
+    "excluded": 29,
+    "feature: transit": 13,
+    "grey zone (E1 only)": 12,
+    "feature: stellar": 10,
+    "feature: derived": 7
+  }
+}
+Majority baseline         3.2s  params={}  calib=none  PR-AUC=0.4941
+Logistic regression      31.9s  params={'clf__C': 1.0, 'clf__class_weight': None}  calib=isotonic  PR-AUC=0.8625
+k-NN                     27.0s  params={'clf__n_neighbors': 31, 'clf__weights': 'distance'}  calib=none  PR-AUC=0.9178
+Decision tree            32.4s  params={'clf__class_weight': 'balanced', 'clf__max_depth': 12, 'clf__min_samples_leaf': 30}  calib=isotonic  PR-AUC=0.9112
+Random forest           503.3s  params={'clf__class_weight': None, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 3}  calib=none  PR-AUC=0.9287
+Gradient boosting       315.0s  params={'clf__l2_regularization': 0.0, 'clf__learning_rate': 0.03, 'clf__max_leaf_nodes': 31}  calib=sigmoid  PR-AUC=0.9345
+              model calibration  pr_auc  pr_auc_sd  roc_auc    mcc  macro_f1  brier    ece
+  Gradient boosting     sigmoid  0.9345     0.0056   0.9331 0.6936    0.8466 0.1046 0.0306
+      Random forest        none  0.9287     0.0048   0.9272 0.6769    0.8381 0.1100 0.0321
+               k-NN        none  0.9178     0.0056   0.9179 0.6554    0.8274 0.1168 0.0334
+      Decision tree    isotonic  0.9112     0.0076   0.9144 0.6505    0.8250 0.1193 0.0401
+Logistic regression    isotonic  0.8625     0.0093   0.8809 0.6102    0.8050 0.1385 0.0277
+  Majority baseline        none  0.4941     0.0003   0.5000 0.0000    0.3360 0.2500 0.0003
+selected model: Gradient boosting
+T0 clean                   Logistic regression  PR-AUC=0.8593
+T0 clean                   Decision tree        PR-AUC=0.8863
+T0 clean                   Random forest        PR-AUC=0.9287
+T0 clean                   Gradient boosting    PR-AUC=0.9334
+T1 + diagnostics           Logistic regression  PR-AUC=0.9338
+T1 + diagnostics           Decision tree        PR-AUC=0.9298
+T1 + diagnostics           Random forest        PR-AUC=0.9650
+T1 + diagnostics           Gradient boosting    PR-AUC=0.9681
+T2 clean + flags           Logistic regression  PR-AUC=0.9968
+T2 clean + flags           Decision tree        PR-AUC=0.9927
+T2 clean + flags           Random forest        PR-AUC=0.9974
+T2 clean + flags           Gradient boosting    PR-AUC=0.9984
+T3 clean + score           Logistic regression  PR-AUC=0.9679
+T3 clean + score           Decision tree        PR-AUC=0.9616
+T3 clean + score           Random forest        PR-AUC=0.9745
+T3 clean + score           Gradient boosting    PR-AUC=0.9750
+T4 clean + flags + score   Logistic regression  PR-AUC=0.9979
+T4 clean + flags + score   Decision tree        PR-AUC=0.9878
+T4 clean + flags + score   Random forest        PR-AUC=0.9981
+T4 clean + flags + score   Gradient boosting    PR-AUC=0.9987
+                                                 rule  rows  pr_auc  roc_auc    mcc  macro_f1  brier    ece
+koi_score as the probability (rows that have a score)  6414  0.9615   0.9708 0.8974    0.9482 0.0442 0.0406
+               any vetting flag set => false positive  7651  0.9785   0.9881 0.9760    0.9880 0.0120 0.0120
+planet-like objects with a flag set: {'CONFIRMED': 17, 'CANDIDATE': 2}
+model                     Decision tree  Gradient boosting  Logistic regression  Random forest
+tier                                                                                          
+T0 clean                         0.8863             0.9334               0.8593         0.9287
+T1 + diagnostics                 0.9298             0.9681               0.9338         0.9650
+T2 clean + flags                 0.9927             0.9984               0.9968         0.9974
+T3 clean + score                 0.9616             0.9750               0.9679         0.9745
+T4 clean + flags + score         0.9878             0.9987               0.9979         0.9981
+                 steff_err1_median  srad_err1_median  share_steff_err_below_100K
+koi_disposition                                                                 
+CANDIDATE                    155.0             0.269                       0.224
+CONFIRMED                    108.0             0.160                       0.359
+FALSE POSITIVE               165.0             0.303                       0.094
+all clean (30)                       Logistic regression  PR-AUC=0.8593
+all clean (30)                       Random forest        PR-AUC=0.9287
+all clean (30)                       Gradient boosting    PR-AUC=0.9334
+without stellar error columns (24)   Logistic regression  PR-AUC=0.8336
+without stellar error columns (24)   Random forest        PR-AUC=0.9239
+without stellar error columns (24)   Gradient boosting    PR-AUC=0.9314
+without any error columns (12)       Logistic regression  PR-AUC=0.7836
+without any error columns (12)       Random forest        PR-AUC=0.9115
+without any error columns (12)       Gradient boosting    PR-AUC=0.9185
+stellar only, with errors (10)       Logistic regression  PR-AUC=0.7248
+stellar only, with errors (10)       Random forest        PR-AUC=0.8001
+stellar only, with errors (10)       Gradient boosting    PR-AUC=0.7985
+stellar only, values only (4)        Logistic regression  PR-AUC=0.6051
+stellar only, values only (4)        Random forest        PR-AUC=0.6987
+stellar only, values only (4)        Gradient boosting    PR-AUC=0.7012
+model                               Gradient boosting  Logistic regression  Random forest
+features                                                                                 
+all clean (30)                                 0.9334               0.8593         0.9287
+without stellar error columns (24)             0.9314               0.8336         0.9239
+without any error columns (12)                 0.9185               0.7836         0.9115
+stellar only, with errors (10)                 0.7985               0.7248         0.8001
+stellar only, values only (4)                  0.7012               0.6051         0.6987
+strict Majority baseline      PR-AUC=0.3593
+strict Logistic regression    PR-AUC=0.9335
+strict k-NN                   PR-AUC=0.9546
+strict Decision tree          PR-AUC=0.9440
+strict Random forest          PR-AUC=0.9670
+strict Gradient boosting      PR-AUC=0.9736
+                 count   mean    std    min    25%    50%    75%    max
+disposition                                                            
+CANDIDATE       1609.0  0.627  0.254  0.005  0.434  0.659  0.849  0.985
+CONFIRMED       2171.0  0.892  0.147  0.010  0.875  0.954  0.975  0.993
+FALSE POSITIVE  3871.0  0.215  0.241  0.002  0.024  0.100  0.367  0.986
+         subset  pr_auc  roc_auc
+CONFIRMED vs FP  0.9641   0.9780
+CANDIDATE vs FP  0.7252   0.8711
+strict-model probability for dev CANDIDATEs: {'count': 1609.0, 'mean': 0.326, 'std': 0.357, 'min': 0.001, '10%': 0.006, '25%': 0.017, '50%': 0.137, '75%': 0.669, '90%': 0.92, 'max': 0.995}
+                   label               model  pr_auc  pr_auc_sd  roc_auc    mcc  brier  rank_by_pr_auc
+main (planet-like vs FP)   Gradient boosting  0.9345     0.0056   0.9331 0.6936 0.1046               1
+main (planet-like vs FP)       Random forest  0.9287     0.0048   0.9272 0.6769 0.1100               2
+main (planet-like vs FP)                k-NN  0.9178     0.0056   0.9179 0.6554 0.1168               3
+main (planet-like vs FP)       Decision tree  0.9112     0.0076   0.9144 0.6505 0.1193               4
+main (planet-like vs FP) Logistic regression  0.8625     0.0093   0.8809 0.6102 0.1385               5
+main (planet-like vs FP)   Majority baseline  0.4941     0.0003   0.5000 0.0000 0.2500               6
+strict (CONFIRMED vs FP)   Majority baseline  0.3593     0.0003   0.5000 0.0000 0.2302               6
+strict (CONFIRMED vs FP) Logistic regression  0.9335     0.0087   0.9628 0.8030 0.0685               5
+strict (CONFIRMED vs FP)                k-NN  0.9546     0.0099   0.9750 0.8335 0.0595               3
+strict (CONFIRMED vs FP)       Decision tree  0.9440     0.0125   0.9665 0.8105 0.0650               4
+strict (CONFIRMED vs FP)       Random forest  0.9670     0.0070   0.9800 0.8535 0.0519               2
+strict (CONFIRMED vs FP)   Gradient boosting  0.9736     0.0066   0.9842 0.8739 0.0436               1
+transit only         Logistic regression  PR-AUC=0.7243
+transit only         Random forest        PR-AUC=0.9085
+transit only         Gradient boosting    PR-AUC=0.9101
+stellar only         Logistic regression  PR-AUC=0.7248
+stellar only         Random forest        PR-AUC=0.8001
+stellar only         Gradient boosting    PR-AUC=0.7985
+transit + stellar    Logistic regression  PR-AUC=0.8197
+transit + stellar    Random forest        PR-AUC=0.9279
+transit + stellar    Gradient boosting    PR-AUC=0.9322
+derived only         Logistic regression  PR-AUC=0.7613
+derived only         Random forest        PR-AUC=0.8672
+derived only         Gradient boosting    PR-AUC=0.8645
+all clean            Logistic regression  PR-AUC=0.8593
+all clean            Random forest        PR-AUC=0.9287
+all clean            Gradient boosting    PR-AUC=0.9334
+model              Gradient boosting  Logistic regression  Random forest
+features                                                                
+transit only                  0.9101               0.7243         0.9085
+stellar only                  0.7985               0.7248         0.8001
+transit + stellar             0.9322               0.8197         0.9279
+derived only                  0.8645               0.7613         0.8672
+all clean                     0.9334               0.8593         0.9287
+Logistic regression  DR24 -> DR25  in=0.8998  feat=0.8648  lab=0.8892  full=0.8327
+Logistic regression  DR25 -> DR24  in=0.9252  feat=0.9108  lab=0.9131  full=0.9002
+Random forest        DR24 -> DR25  in=0.9366  feat=0.9374  lab=0.9392  full=0.9411
+Random forest        DR25 -> DR24  in=0.9578  feat=0.9351  lab=0.9397  full=0.9206
+Gradient boosting    DR24 -> DR25  in=0.9410  feat=0.9467  lab=0.9396  full=0.9487
+Gradient boosting    DR25 -> DR24  in=0.9619  feat=0.9402  lab=0.9440  full=0.9263
+{
+  "dr24_rows": 7470,
+  "dr25_rows": 8054,
+  "shared_kois": 7102,
+  "shared_stars": 6096,
+  "only_dr24": 368,
+  "only_dr25": 952,
+  "flips_main_label": {
+    "stable": 6590,
+    "planet-like -> FP": 435,
+    "FP -> planet-like": 77
+  },
+  "flips_pdisposition": 569
+}
+setting                           design B (same objects)  feature shift  full shift  in-release  label shift
+model               direction                                                                                
+Gradient boosting   DR24 -> DR25                   0.9619         0.9467      0.9487      0.9410       0.9396
+                    DR25 -> DR24                   0.9393         0.9402      0.9263      0.9619       0.9440
+Logistic regression DR24 -> DR25                   0.8397         0.8648      0.8327      0.8998       0.8892
+                    DR25 -> DR24                   0.9015         0.9108      0.9002      0.9252       0.9131
+Random forest       DR24 -> DR25                   0.9581         0.9374      0.9411      0.9366       0.9392
+                    DR25 -> DR24                   0.9367         0.9351      0.9206      0.9578       0.9397
+                      n  mean_p_dr25_model  median_margin  share_uncertain_0p3_0p7  dr24_model_agrees_with_dr25_label
+change                                                                                                               
+FP -> planet-like    77              0.387          0.336                    0.260                              0.429
+planet-like -> FP   435              0.173          0.440                    0.108                              0.584
+stable             6590              0.554          0.436                    0.126                              0.888
+                   koi_model_snr_25  koi_period_25  koi_depth_25  koi_prad_25  koi_impact_25
+change                                                                                      
+FP -> planet-like              19.7           2.01         214.3         2.04           0.58
+planet-like -> FP             222.3          12.72       11545.0        38.61           0.98
+stable                         30.7           7.08         455.9         2.45           0.58
+DR25 flags behind planet-like -> FP: {'koi_fpflag_nt': 0.209, 'koi_fpflag_ss': 0.717, 'koi_fpflag_co': 0.094, 'koi_fpflag_ec': 0.014}
+DR24 flags of FP -> planet-like: {'koi_fpflag_nt': 0.286, 'koi_fpflag_ss': 0.506, 'koi_fpflag_co': 0.221, 'koi_fpflag_ec': 0.065}
+Majority baseline      test PR-AUC=0.4940
+Logistic regression    test PR-AUC=0.8598
+k-NN                   test PR-AUC=0.9106
+Decision tree          test PR-AUC=0.9055
+Random forest          test PR-AUC=0.9261
+Gradient boosting      test PR-AUC=0.9293
+              model calibration  pr_auc  roc_auc    mcc  macro_f1  brier    ece
+  Gradient boosting     sigmoid  0.9293   0.9300 0.7115    0.8557 0.1061 0.0343
+      Random forest        none  0.9261   0.9257 0.6884    0.8442 0.1101 0.0390
+               k-NN        none  0.9106   0.9159 0.6623    0.8306 0.1180 0.0404
+      Decision tree    isotonic  0.9055   0.9090 0.6593    0.8296 0.1225 0.0339
+Logistic regression    isotonic  0.8598   0.8772 0.6079    0.8039 0.1414 0.0378
+  Majority baseline        none  0.4940   0.5000 0.0000    0.3360 0.2500 0.0001
+              model                  operating_point  threshold  recall  precision  flagged_fraction    mcc
+Logistic regression                    threshold 0.5     0.5000  0.8000     0.8025            0.4924 0.6079
+Logistic regression 95 % recall threshold (from dev)     0.1989  0.9460     0.6390            0.7313 0.4786
+               k-NN                    threshold 0.5     0.5000  0.8540     0.8127            0.5191 0.6623
+               k-NN 95 % recall threshold (from dev)     0.2888  0.9481     0.6984            0.6707 0.5834
+      Decision tree                    threshold 0.5     0.5000  0.8349     0.8227            0.5013 0.6593
+      Decision tree 95 % recall threshold (from dev)     0.3181  0.9397     0.6900            0.6728 0.5621
+      Random forest                    threshold 0.5     0.5000  0.8370     0.8460            0.4888 0.6884
+      Random forest 95 % recall threshold (from dev)     0.2814  0.9545     0.6998            0.6738 0.5916
+  Gradient boosting                    threshold 0.5     0.5000  0.8582     0.8510            0.4982 0.7115
+  Gradient boosting 95 % recall threshold (from dev)     0.2732  0.9481     0.7197            0.6508 0.6163
+              model metric  estimate  ci_low  ci_high
+  Majority baseline pr_auc    0.4940  0.4671   0.5195
+Logistic regression pr_auc    0.8598  0.8336   0.8835
+               k-NN pr_auc    0.9106  0.8910   0.9278
+      Decision tree pr_auc    0.9055  0.8864   0.9231
+      Random forest pr_auc    0.9261  0.9108   0.9402
+  Gradient boosting pr_auc    0.9293  0.9139   0.9428
+        reference               model metric  diff_estimate  ci_low  ci_high  p_ref_not_better
+Gradient boosting   Majority baseline pr_auc         0.4353  0.4132   0.4593             0.000
+Gradient boosting Logistic regression pr_auc         0.0695  0.0516   0.0891             0.000
+Gradient boosting                k-NN pr_auc         0.0187  0.0093   0.0302             0.000
+Gradient boosting       Decision tree pr_auc         0.0238  0.0158   0.0324             0.000
+Gradient boosting       Random forest pr_auc         0.0032 -0.0015   0.0079             0.091
+test KOIs=1913, planet-like=945
+  k  perfect  Gradient boosting (model)  Logistic regression (model)  Highest SNR first  Shortest period first  Longest period first  Random order (mean of 500)
+100      100                       98.0                         95.0                4.0                   10.0                  41.0                        49.2
+250      250                      244.0                        234.0               32.0                   34.0                  97.0                       124.0
+478      478                      467.0                        433.0              119.0                  110.0                 226.0                       236.7
+500      500                      487.0                        448.0              134.0                  123.0                 241.0                       247.4
+ recall_target  Gradient boosting (model)  Logistic regression (model)  Highest SNR first  Shortest period first  Longest period first  Random order (mean of 500)
+          0.50                        484                          534                993                   1050                   864                         957
+          0.80                        848                          941               1471                   1496                  1301                        1531
+          0.90                       1092                         1188               1665                   1672                  1471                        1723
+          0.95                       1253                         1408               1751                   1793                  1610                        1818
+/Users/ojas/planet-or-impostor/experiments/e7_error_analysis.py:73: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ((fa.koi_fpflag_co == 1) & (fa[["koi_fpflag_nt", "koi_fpflag_ss", "koi_fpflag_ec"]].sum(1) == 0)).mean(),
+/Users/ojas/planet-or-impostor/experiments/e7_error_analysis.py:74: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ((fps.koi_fpflag_co == 1) & (fps[["koi_fpflag_nt", "koi_fpflag_ss", "koi_fpflag_ec"]].sum(1) == 0)).mean()]
+{
+  "test_n": 1913,
+  "confident_false_alarms": 12,
+  "confident_misses": 15,
+  "share_of_fps_that_are_confident_false_alarms": 0.012396694214876033,
+  "share_of_planet_like_that_are_confident_misses": 0.015873015873015872,
+  "dev_confident_false_alarms": 37,
+  "dev_confident_misses": 46,
+  "dev_confident_misses_by_disposition": {
+    "CANDIDATE": 43,
+    "CONFIRMED": 3
+  }
+}
+                         share_among_confident_false_alarms  share_among_all_false_positives
+koi_fpflag_nt                                         0.167                            0.318
+koi_fpflag_ss                                         0.333                            0.458
+koi_fpflag_co                                         0.667                            0.368
+koi_fpflag_ec                                         0.333                            0.217
+only centroid flag (co)                               0.333                            0.114
+               share_among_confident_false_alarms  share_among_all_false_positives
+koi_fpflag_nt                               0.054                            0.315
+koi_fpflag_ss                               0.378                            0.456
+koi_fpflag_co                               0.703                            0.396
+koi_fpflag_ec                               0.351                            0.242
+koi_disposition
+CANDIDATE    13
+CONFIRMED     2
+               confident false alarms  correct false positives (p<0.5)  confident misses  correct planet-like (p>=0.5)
+koi_period                      20.01                             5.24              5.29                         12.47
+koi_depth                      221.55                           807.20           2092.30                        367.25
+koi_model_snr                   23.75                            45.60             52.80                         22.05
+koi_prad                         1.94                            20.48             30.25                          2.00
+koi_impact                       0.43                             0.72              1.23                          0.37
+koi_duration                     3.36                             4.34              4.81                          3.54
+koi_steff                     5681.50                          5868.00           6072.00                       5632.00
+koi_srad                         1.04                             1.01              1.02                          0.96
+            bin    n  false_pos_share  error_rate@0.5  conf_false_alarm_rate  conf_miss_rate        variable
+           <1 d  194            0.861           0.108                  0.000           0.015      koi_period
+          1-3 d  280            0.711           0.104                  0.004           0.011      koi_period
+         3-10 d  448            0.350           0.123                  0.007           0.004      koi_period
+        10-30 d  419            0.379           0.122                  0.010           0.005      koi_period
+       30-100 d  251            0.386           0.127                  0.012           0.004      koi_period
+         >100 d  321            0.589           0.274                  0.003           0.012      koi_period
+       <100 ppm  267            0.536           0.142                  0.004           0.004       koi_depth
+        100-300  488            0.436           0.193                  0.014           0.004       koi_depth
+         300-1k  509            0.306           0.145                  0.004           0.006       koi_depth
+         1k-10k  289            0.450           0.173                  0.007           0.028       koi_depth
+       >10k ppm  294            0.925           0.027                  0.000           0.003       koi_depth
+            <10  300            0.530           0.340                  0.007           0.000   koi_model_snr
+          10-20  525            0.417           0.170                  0.002           0.000   koi_model_snr
+          20-50  449            0.327           0.096                  0.020           0.016   koi_model_snr
+         50-100  160            0.394           0.056                  0.000           0.012   koi_model_snr
+           >100  412            0.789           0.051                  0.000           0.015   koi_model_snr
+       <1.25 Re  362            0.483           0.157                  0.003           0.000        koi_prad
+         1.25-2  408            0.333           0.189                  0.012           0.005        koi_prad
+            2-6  509            0.251           0.147                  0.010           0.004        koi_prad
+           6-15  117            0.453           0.222                  0.009           0.000        koi_prad
+         >15 Re  452            0.934           0.066                  0.000           0.024        koi_prad
+              M   53            0.472           0.189                  0.000           0.019    stellar_type
+              K  408            0.446           0.157                  0.012           0.005    stellar_type
+              G  779            0.433           0.125                  0.008           0.005    stellar_type
+              F  579            0.594           0.157                  0.002           0.014    stellar_type
+             A+   29            0.897           0.103                  0.000           0.000    stellar_type
+     q1_q16_koi  207            0.681           0.329                  0.005           0.005   koi_parm_prov
+q1_q17_dr24_koi   66            0.606           0.273                  0.000           0.030   koi_parm_prov
+q1_q17_dr25_koi 1640            0.480           0.116                  0.007           0.007   koi_parm_prov
+          False 1848            0.495           0.143                  0.006           0.008  no_transit_fit
+           True   65            0.831           0.169                  0.000           0.000  no_transit_fit
+      CANDIDATE  368            0.000           0.310                  0.000           0.035 koi_disposition
+      CONFIRMED  577            0.000           0.035                  0.000           0.003 koi_disposition
+ FALSE POSITIVE  968            1.000           0.147                  0.012           0.000 koi_disposition
+Logistic regression [['koi_insol', 0.3068], ['koi_teq', 0.101], ['koi_duration', 0.099], ['koi_period', 0.0769], ['koi_prad', 0.0664]]
+k-NN [['koi_steff', 0.0579], ['koi_insol', 0.0452], ['koi_duration', 0.0387], ['koi_prad', 0.0365], ['koi_impact', 0.0234]]
+Decision tree [['koi_prad', 0.1454], ['koi_steff', 0.0918], ['koi_duration', 0.062], ['koi_period', 0.0546], ['koi_teq', 0.0084]]
+Random forest [['koi_prad', 0.0881], ['koi_duration', 0.0565], ['koi_steff', 0.0495], ['koi_period', 0.0227], ['koi_insol', 0.0191]]
+Gradient boosting [['koi_duration', 0.0877], ['koi_prad', 0.0575], ['koi_steff', 0.0405], ['koi_period', 0.0392], ['koi_depth', 0.0179]]
+SHAP mean |value| by measure: {'koi_prad': 0.1343, 'koi_steff': 0.1011, 'koi_duration': 0.0636, 'koi_period': 0.0575, 'koi_insol': 0.0528, 'koi_impact': 0.0299, 'koi_depth': 0.0229, 'koi_teq': 0.0161, 'koi_model_snr': 0.0152, 'koi_slogg': 0.0134}
+ok fig_leakage
+ok fig_models
+ok fig_pr_curves
+ok fig_reliability
+ok fig_shift
+ok fig_ablation
+ok fig_review
+ok fig_errors
+ok fig_importance
+ok fig_pdp
+ok fig_shap
+saved /Users/ojas/planet-or-impostor/results/models/gradient_boosting_uncalibrated.joblib
